@@ -1,2 +1,101 @@
 site_name: KhaledWrites-Showcase
-site_description: My Docs
+site_description: Showing off my technical writing skills
+
+theme:
+
+  # Language of the documentation (en: English)
+  language: en
+  # Name of the theme that we are using (material: https://github.com/squidfunk/mkdocs-material)
+  name: material
+  # Name of the font that we use (Roboto: https://fonts.google.com/specimen/Roboto)   
+  font:
+    text: Poppins
+    # Name of the font for Code Blocks (Roboto Mono: https://fonts.google.com/specimen/Roboto+Mono)
+    code: Roboto Mono
+  # Website Logo (Image in the Header) , I have used the image located on nagwa.com
+  logo: assets/work-plan.png
+  # Website Favicon (Image in the browser tab) , I have used the image located on nagwa.com
+  favicon: assets/document.png
+  # Colors of the theme (Dark Mode) 
+  palette:
+  - scheme: default
+    # Palette toggle for light mode
+    primary: 'white' # A hue similar to the background pink/magenta of the website
+    accent: 'pink' # 255, 224, 130 - A light, warm yellow for highlights
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
+
+  - scheme: slate
+    primary: 'blue-grey' # 190, 30, 45 - Matches the deep red accents on the site
+    accent: 'pink' # 244, 168, 49 - Harmonizes with the playful, energetic vibe
+    toggle:
+      icon: material/brightness-4
+      name: Switch to light mode
+
+
+markdown_extensions:
+# Admonitions, also known as call-outs, are an excellent choice for including side content without 
+# significantly interrupting the document flow. 
+- admonition
+- pymdownx.details
+- pymdownx.superfences
+- attr_list
+#Annotation Related Extensions
+- md_in_html
+
+- pymdownx.tabbed:
+    alternate_style: true
+- pymdownx.highlight:
+    anchor_linenums: true
+    line_spans: __span
+    pygments_lang_class: true
+  # Code Highliting
+- pymdownx.inlinehilite
+- pymdownx.snippets
+- abbr
+# Tooltips
+
+- def_list
+- pymdownx.tasklist:
+    custom_checkbox: true
+- tables
+# Add tables support
+
+# ------------------Plugins------------------ #
+
+plugins:
+- blog
+# ------------------Search------------------ #
+# When search is enabled, a search box is rendered in the header, which allows users to search the documentation
+
+- search
+- git-revision-date-localized:
+
+    type: timeago
+    timezone: Africa/Cairo
+    locale: en
+    fallback_to_build_date: false
+    enable_creation_date: true
+
+
+
+copyright: Copyright &copy; 2024 - Khaled Abdelfattah
+extra:
+  generator: false
+  analytics:
+    provider: google
+    property: G-6ZZ13F16ZV
+    feedback:
+      title: Was this page helpful?
+      ratings:
+      - icon: material/emoticon-happy-outline
+        name: This page was helpful
+        data: 1
+        note: >-
+          Thanks for your feedback!
+      - icon: material/emoticon-sad-outline
+        name: This page could be improved
+        data: 0
+        note: >-
+          Thanks for your feedback! Help us improve this page by using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
