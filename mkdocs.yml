@@ -12,7 +12,6 @@ nav:
   - Job Tasks:
     - 4-Sale:
       - Overview: tasks/4-sale/index.md
-      - Authentication: tasks/4-sale/authentication.md
       - Availabile Endpoints: 
         - tasks/4-sale/endpoints/index.md
         - User's Recommendation: tasks/4-sale/endpoints/user_recomendations.md
@@ -22,6 +21,8 @@ nav:
         - User's Interactions: tasks/4-sale/endpoints/user_interactions.md
         - Configure Recommendation Algorithm: tasks/4-sale/endpoints/configure_algorithm.md
         - API Health: tasks/4-sale/endpoints/status.md
+      - Authentication: tasks/4-sale/authentication.md
+      
 
 theme:
 
