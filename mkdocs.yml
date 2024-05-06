@@ -1,6 +1,11 @@
 site_name: KhaledWrites-Showcase
 site_description: Showing off my technical writing skills
 
+nav:
+  - Home: index.md
+  - Projects: 
+    - projects.md
+    - Public Contributions: public-contributions.md
 theme:
 
   # Language of the documentation (en: English)
@@ -33,7 +38,50 @@ theme:
       icon: material/brightness-4
       name: Switch to light mode
 
+  features:
+  # [navigation.tabs ]When tabs are enabled, top-level sections are rendered in a menu layer below 
+  # the header for viewports above 1220px, but remain as-is on mobile devices.
+  - navigation.tabs
+  - content.tooltips
+  # ------------------Navigation------------------ #
+  - navigation.tabs.sticky
+  #[navigation.tabs.sticky] navigation tabs will lock below the header and always remain visible when scrolling down 
+  #- navigation.sections
+  # When [navigation.sections] are enabled, top-level sections are rendered as groups in the sidebar for viewports above 1220px
+  # so the user doesn't have to open subsections manually 
+  - navigation.expand
+  # When expansion is enabled, the left sidebar will expand all collapsible subsections by default, 
+  # which might make orientation easier for users visiting your documentation on devices with smaller screen
+  - navigation.path
+  # When navigation paths are activated, a breadcrumb navigation is rendered above the title of each page,
+  #reducing the size of the built site by 33% or more
+  - navigation.prune
+  #When pruning is enabled, only the visible navigation items are included in the rendered HTML,
+  # which is particularly useful for providing overview pages
+  - navigation.indexes
+  # When section index pages are enabled, documents can be directly attached to sections,
+  # so that the active anchor is always visible
+  - toc.follow
+  # When anchor following for the table of contents is enabled, the sidebar is automatically scrolled 
+  #It's rendered centered and just below the header
+  - navigation.top
+  # A back-to-top button can be shown when the user, after scrolling down, starts to scroll up again.
+  - search.suggest
+  - search.highlight
+  - search.share
 
+  - navigation.tracking
+
+  # ------------------Footer------------------ #
+  - navigation.footer
+  - content.action.edit
+
+  # ------------------Code Copying------------------ #
+  - content.code.copy
+  - content.code.annotation
+  # ------------------Code Annotating------------------ #
+  - announce.dismiss
+  - header.autohide
 markdown_extensions:
 # Admonitions, also known as call-outs, are an excellent choice for including side content without 
 # significantly interrupting the document flow. 
@@ -41,6 +89,9 @@ markdown_extensions:
 - pymdownx.details
 - pymdownx.superfences
 - attr_list
+- pymdownx.emoji:
+    emoji_index: !!python/name:material.extensions.emoji.twemoji
+    emoji_generator: !!python/name:material.extensions.emoji.to_svg
 #Annotation Related Extensions
 - md_in_html
 
