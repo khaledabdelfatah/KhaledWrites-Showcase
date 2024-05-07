@@ -111,7 +111,7 @@ The response will be a JSON object containing the list of recommended `items` fo
       "error": "401",  
       "message": "Unauthorized"
     }
-```
+    ```
 
 === "Not Found"
     ```json
@@ -119,4 +119,4 @@ The response will be a JSON object containing the list of recommended `items` fo
       "error": "404",  
       "message": "Category not found"
     }
-```
+  ```

@@ -1,6 +1,3 @@
-/user-data/{user_id}/interactions: Manage user interaction data (e.g., views, purchases) to personalize recommendations. This endpoint supports various actions like creating, updating, and deleting interactions (use appropriate HTTP methods with JSON body).
-
-
 # **Manage User Interaction Data**
 
 This endpoint allows you to manage user interaction data, such as views, purchases, and likes, to personalize recommendations for users. You can create, update, and delete interactions using this endpoint.
