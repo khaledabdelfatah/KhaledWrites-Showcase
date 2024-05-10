@@ -154,7 +154,7 @@ extra:
   generator: false
   analytics:
     provider: google
-    property: G-6ZZ13F16ZV
+    property: G-YSK1N9PGV1
     feedback:
       title: Was this page helpful?
       ratings:

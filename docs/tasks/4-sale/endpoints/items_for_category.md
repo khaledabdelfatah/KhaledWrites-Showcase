@@ -119,4 +119,4 @@ The response will be a JSON object containing the list of recommended `items` fo
       "error": "404",  
       "message": "Category not found"
     }
-  ```
+    ```
