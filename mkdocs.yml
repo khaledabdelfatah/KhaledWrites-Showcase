@@ -9,19 +9,19 @@ nav:
   - Projects: 
     - projects.md
     - Public Contributions: public-contributions.md
-  - Job Tasks:
-    - 4-Sale:
-      - Overview: tasks/4-sale/index.md
-      - Availabile Endpoints: 
-        - tasks/4-sale/endpoints/index.md
-        - User's Recommendation: tasks/4-sale/endpoints/user_recomendations.md
-        - Similer Items: tasks/4-sale/endpoints/similer_items.md
-        - Items for Spacific Category: tasks/4-sale/endpoints/items_for_category.md
-        - Submit Feedback: tasks/4-sale/endpoints/submit_feedback.md
-        - User's Interactions: tasks/4-sale/endpoints/user_interactions.md
-        - Configure Recommendation Algorithm: tasks/4-sale/endpoints/configure_algorithm.md
-        - API Health: tasks/4-sale/endpoints/status.md
-      - Authentication: tasks/4-sale/authentication.md
+  # - Job Tasks:
+  #   - 4-Sale:
+  #     - Overview: tasks/4-sale/index.md
+  #     - Availabile Endpoints: 
+  #       - tasks/4-sale/endpoints/index.md
+  #       - User's Recommendation: tasks/4-sale/endpoints/user_recomendations.md
+  #       - Similer Items: tasks/4-sale/endpoints/similer_items.md
+  #       - Items for Spacific Category: tasks/4-sale/endpoints/items_for_category.md
+  #       - Submit Feedback: tasks/4-sale/endpoints/submit_feedback.md
+  #       - User's Interactions: tasks/4-sale/endpoints/user_interactions.md
+  #       - Configure Recommendation Algorithm: tasks/4-sale/endpoints/configure_algorithm.md
+  #       - API Health: tasks/4-sale/endpoints/status.md
+  #     - Authentication: tasks/4-sale/authentication.md
       
 
 theme:
