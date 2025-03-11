@@ -15,6 +15,7 @@ nav:
   #   - 4-Sale:
   #     - Overview: tasks/4-sale/index.md
   #     - Availabile Endpoints: 
+  
   #       - tasks/4-sale/endpoints/index.md
   #       - User's Recommendation: tasks/4-sale/endpoints/user_recomendations.md
   #       - Similer Items: tasks/4-sale/endpoints/similer_items.md
