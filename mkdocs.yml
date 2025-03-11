@@ -9,7 +9,9 @@ nav:
   - Projects: 
     - projects.md
     - Public Contributions: public-contributions.md
-  # - Job Tasks:
+  - Job Tasks:
+    - palm-outsource:
+      - Overview: tasks/palm-outsource/index.md
   #   - 4-Sale:
   #     - Overview: tasks/4-sale/index.md
   #     - Availabile Endpoints: 
