@@ -9,9 +9,16 @@ nav:
   - Projects: 
     - projects.md
     - Public Contributions: public-contributions.md
-  - Job Tasks:
-    - palm-outsource:
-      - Overview: tasks/palm-outsource/index.md
+  - Tasks:
+    - GH:
+      - Overview: tasks/gh/index.md
+      - Keycloak: tasks/gh/keycloak.md
+      - jBPM: tasks/gh/jbpm.md
+      - Java Document: tasks/gh/java_docs.md
+      - Database: tasks/gh/database.md
+
+    # - palm-outsource:
+    #   - Overview: tasks/palm-outsource/index.md
   #   - 4-Sale:
   #     - Overview: tasks/4-sale/index.md
   #     - Availabile Endpoints: 
@@ -152,7 +159,7 @@ plugins:
 
 
 
-copyright: Copyright &copy; 2024 - Khaled Abdelfattah
+copyright: Copyright &copy; 2025 - Khaled Abdelfattah
 extra:
   generator: false
   analytics:
