@@ -9,13 +9,13 @@ nav:
   - Projects: 
     - projects.md
     - Public Contributions: public-contributions.md
-  - Tasks:
-    - GH:
-      - Overview: tasks/gh/index.md
-      - Keycloak: tasks/gh/keycloak.md
-      - jBPM: tasks/gh/jbpm.md
-      - Java Document: tasks/gh/java_docs.md
-      - Database: tasks/gh/database.md
+  # - Tasks:
+  #   - GH:
+  #     - Overview: tasks/gh/index.md
+  #     - Keycloak: tasks/gh/keycloak.md
+  #     - jBPM: tasks/gh/jbpm.md
+  #     - Java Document: tasks/gh/java_docs.md
+  #     - Database: tasks/gh/database.md
 
     # - palm-outsource:
     #   - Overview: tasks/palm-outsource/index.md
